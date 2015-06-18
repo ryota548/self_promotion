@@ -16,6 +16,7 @@
 		6F9945411B3170F90053D52B /* self_promotionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F9945401B3170F90053D52B /* self_promotionTests.swift */; };
 		6F99454B1B32564A0053D52B /* kssweetheavycalligraphy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F99454A1B32564A0053D52B /* kssweetheavycalligraphy.ttf */; };
 		6F99454D1B32565C0053D52B /* nicomoji-plus_v0.9.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6F99454C1B32565C0053D52B /* nicomoji-plus_v0.9.ttf */; };
+		6F99454F1B3262100053D52B /* koshiba.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6F99454E1B3262100053D52B /* koshiba.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,7 @@
 		6F9945401B3170F90053D52B /* self_promotionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = self_promotionTests.swift; sourceTree = "<group>"; };
 		6F99454A1B32564A0053D52B /* kssweetheavycalligraphy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = kssweetheavycalligraphy.ttf; sourceTree = "<group>"; };
 		6F99454C1B32565C0053D52B /* nicomoji-plus_v0.9.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "nicomoji-plus_v0.9.ttf"; sourceTree = "<group>"; };
+		6F99454E1B3262100053D52B /* koshiba.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = koshiba.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		6F9945241B3170F90053D52B /* self_promotion */ = {
 			isa = PBXGroup;
 			children = (
+				6F99454E1B3262100053D52B /* koshiba.jpg */,
 				6F99454C1B32565C0053D52B /* nicomoji-plus_v0.9.ttf */,
 				6F99454A1B32564A0053D52B /* kssweetheavycalligraphy.ttf */,
 				6F9945271B3170F90053D52B /* AppDelegate.swift */,
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6F9945301B3170F90053D52B /* Main.storyboard in Resources */,
+				6F99454F1B3262100053D52B /* koshiba.jpg in Resources */,
 				6F99454D1B32565C0053D52B /* nicomoji-plus_v0.9.ttf in Resources */,
 				6F9945351B3170F90053D52B /* LaunchScreen.xib in Resources */,
 				6F99454B1B32564A0053D52B /* kssweetheavycalligraphy.ttf in Resources */,
