@@ -4,7 +4,44 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
     </dependencies>
     <customFonts key="customFonts">
+        <mutableArray key="kssweetheavycalligraphy.ttf">
+            <string>sweet-heavy-calligraphy</string>
+        </mutableArray>
         <mutableArray key="nicomoji-plus_v0.9.ttf">
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
+            <string>NicoMoji+</string>
             <string>NicoMoji+</string>
             <string>NicoMoji+</string>
             <string>NicoMoji+</string>
@@ -38,55 +75,406 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMr-2y-xN1">
+                                <rect key="frame" x="277" y="620" width="215" height="52"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="40"/>
+                                <state key="normal" title="じこしょうかい">
+                                    <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="eD4-EX-5hs" kind="presentation" modalTransitionStyle="flipHorizontal" id="Ab3-VP-xlM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7a9-FD-Uu7">
+                                <rect key="frame" x="239" y="720" width="291" height="52"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="40"/>
+                                <state key="normal" title="現在やっていること">
+                                    <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="tTa-yr-VU2" kind="presentation" modalTransitionStyle="flipHorizontal" id="KNm-tB-81W"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXt-2e-bLx">
+                                <rect key="frame" x="175" y="818" width="418" height="52"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="40"/>
+                                <state key="normal" title="インターンシップに求める事">
+                                    <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="S5Y-GO-o48" kind="presentation" modalTransitionStyle="flipHorizontal" id="p4S-6p-2KH"/>
+                                </connections>
+                            </button>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oc6-Sj-5vh">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="63"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="B4I-6d-1nv">
+                                <rect key="frame" x="-37" y="961" width="805" height="63"/>
+                                <color key="backgroundColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="逆求人フェスティバル" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iyw-zg-Xgy">
-                                <rect key="frame" x="122" y="166" width="525" height="81"/>
+                                <rect key="frame" x="122" y="189" width="525" height="81"/>
                                 <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="60"/>
                                 <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMr-2y-xN1">
-                                <rect key="frame" x="277" y="506" width="215" height="52"/>
-                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="40"/>
-                                <state key="normal" title="じこしょうかい">
-                                    <color key="titleColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <segue destination="eD4-EX-5hs" kind="presentation" modalTransitionStyle="crossDissolve" id="Ab3-VP-xlM"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7a9-FD-Uu7">
-                                <rect key="frame" x="239" y="606" width="291" height="52"/>
-                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="40"/>
-                                <state key="normal" title="現在やっていること">
-                                    <color key="titleColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Ec-yA-Ke1">
-                                <rect key="frame" x="333" y="811" width="102" height="52"/>
-                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="40"/>
-                                <state key="normal" title="etc.">
-                                    <color key="titleColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lXt-2e-bLx">
-                                <rect key="frame" x="252" y="711" width="265" height="52"/>
-                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="40"/>
-                                <state key="normal" title="今後のちょうせん">
-                                    <color key="titleColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1133" y="619"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GR2-hE-MV8">
+            <objects>
+                <viewController id="tTa-yr-VU2" customClass="ViewController" customModule="self_promotion" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1RZ-OJ-iHZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="hba-ua-2gv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="wNk-nz-bWu">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kXS-eG-a3e">
+                                <rect key="frame" x="28" y="962" width="69" height="42"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
+                                <state key="normal" title="もどる">
+                                    <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="flipHorizontal" id="AUs-FA-Q6c"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N44-rI-MST">
+                                <rect key="frame" x="122" y="101" width="525" height="62"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="50"/>
+                                <state key="normal" title="課題解決能力・行動力">
+                                    <color key="titleColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="現在やっていること" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H7J-Op-JGH">
+                                <rect key="frame" x="239" y="20" width="291" height="40"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="40"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="AromaShooterWhite.png" translatesAutoresizingMaskIntoConstraints="NO" id="Nqj-57-BA4">
+                                <rect key="frame" x="19" y="720" width="298" height="176"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="でiOSアプリの開発を始める" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ryt-LG-i0M">
+                                <rect key="frame" x="476" y="825" width="227" height="20"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="20"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OiL-AO-tHG">
+                                <rect key="frame" x="325" y="822" width="143" height="26"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="25"/>
+                                <state key="normal" title="アロマジョイン">
+                                    <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aam-Za-AtE" kind="presentation" identifier="goWebView" id="zUl-Wp-yZq"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="正しい情報には、視覚、聴覚以外が必要と感じる" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zGi-Pf-oZ3">
+                                <rect key="frame" x="325" y="730" width="430" height="20"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="21"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="個人開発では味わえない体験の数々" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zhl-gc-MI8">
+                                <rect key="frame" x="325" y="876" width="297" height="20"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="20"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N89-el-vd7">
+                                <rect key="frame" x="158" y="936" width="470" height="47"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="35"/>
+                                <state key="normal" title="今後、大切にしたいこと">
+                                    <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="S5Y-GO-o48" kind="presentation" modalTransitionStyle="flipHorizontal" id="Tde-zV-5K8"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="研究室の先輩から代々受け継がれている" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jcP-jQ-qKh">
+                                <rect key="frame" x="325" y="803" width="330" height="20"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="20"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lit1.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="zDW-2i-wYr">
+                                <rect key="frame" x="19" y="207" width="298" height="199"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pmE-lC-vk6">
+                                <rect key="frame" x="325" y="213" width="425" height="20"/>
+                                <string key="text">塾講師時に、現在の教育に対する違和感を感じる
+
+</string>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="21"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bLQ-Sp-wCs">
+                                <rect key="frame" x="325" y="271" width="208" height="20"/>
+                                <string key="text">IT教育に力を入れている
+
+</string>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="20"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l8b-np-Eut">
+                                <rect key="frame" x="541" y="265" width="196" height="26"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="25"/>
+                                <state key="normal" title="Life is Tech!">
+                                    <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aam-Za-AtE" kind="presentation" identifier="goWebView" id="NmQ-8c-ZWU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d52-eS-Qfy">
+                                <rect key="frame" x="325" y="299" width="232" height="20"/>
+                                <string key="text">でiPhoneメンターを始める
+
+</string>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="20"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="テクノロジーを通じて子供達が希望を持つ事を実感" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eIM-Ue-qP6">
+                                <rect key="frame" x="325" y="343" width="405" height="20"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="20"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="人に教えることで、自分自身も成長" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fjX-ka-euN">
+                                <rect key="frame" x="325" y="386" width="297" height="20"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="20"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="imgviewf.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="7SD-lC-VA5">
+                                <rect key="frame" x="16" y="450" width="298" height="215"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PFu-iz-GcP">
+                                <rect key="frame" x="322" y="479" width="392" height="20"/>
+                                <string key="text">少子高齢化、女性の社会進出、子育て支援
+
+</string>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="21"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bZE-tS-thC">
+                                <rect key="frame" x="322" y="524" width="229" height="20"/>
+                                <string key="text">IoT分野での企業を目指す
+
+</string>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="20"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IMy-Im-rdz">
+                                <rect key="frame" x="559" y="518" width="206" height="26"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="25"/>
+                                <state key="normal" title="GEIoTプログラム">
+                                    <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="aam-Za-AtE" kind="presentation" identifier="goWebView" id="bMF-ch-fk9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="事業を生み出す難しさにぶつかりながら試行錯誤" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NiV-Gs-vjU">
+                                <rect key="frame" x="319" y="627" width="387" height="20"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="20"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="社会のニーズを見抜く力、ビジネスプランへと発展" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4k-tM-yne">
+                                <rect key="frame" x="315" y="599" width="399" height="20"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="20"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e6a-zK-Gpj">
+                                <rect key="frame" x="571" y="499" width="76" height="26"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="20"/>
+                                <state key="normal" title="ガイオット">
+                                    <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zcd-KM-Rha" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2058" y="-42"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="gcY-RO-V21">
+            <objects>
+                <viewController id="aam-Za-AtE" customClass="WebViewController" customModule="self_promotion" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="su3-jq-0sn"/>
+                        <viewControllerLayoutGuide type="bottom" id="SXu-We-egy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lX0-hZ-qLF">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pl8-Bg-1Qa">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1004"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="webView" destination="pl8-Bg-1Qa" id="0vH-LT-okO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Js3-Y4-aYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2910" y="89"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dsq-E1-K2R">
+            <objects>
+                <viewController id="S5Y-GO-o48" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Waq-dr-jT3"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ju3-kr-Bju"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2wE-9h-thU">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="インターンシップに求めること" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghc-5b-Tes">
+                                <rect key="frame" x="157" y="529" width="444" height="40"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="40"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="社内での働き方や仕事に対する思いを知る事ができる" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aDz-yq-qeF">
+                                <rect key="frame" x="64" y="626" width="630" height="30"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynd-Dk-n8g">
+                                <rect key="frame" x="350" y="883" width="69" height="42"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
+                                <state key="normal" title="end">
+                                    <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="coO-da-rp5" kind="presentation" modalTransitionStyle="flipHorizontal" id="TrE-aG-6eU"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="今後、大切にしたいこと" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GcI-is-oNl">
+                                <rect key="frame" x="191" y="158" width="386" height="40"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="40"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="常に新しい技術、環境、人に触れ続ける" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AeI-VO-ETH">
+                                <rect key="frame" x="116" y="308" width="537" height="30"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="モノやサービスを、とにかく世の中に出す" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZvJ-Yl-VhA">
+                                <rect key="frame" x="143" y="251" width="482" height="30"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="他の企業にはできない特別な体験ができる" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0R-mX-SdF">
+                                <rect key="frame" x="24" y="675" width="710" height="30"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1p1-gS-qeO">
+                                <rect key="frame" x="24" y="962" width="69" height="42"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
+                                <state key="normal" title="もどる">
+                                    <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="flipHorizontal" id="8uV-EZ-Zqy"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X01-Is-mSp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2014" y="1196"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YrQ-CT-a82">
+            <objects>
+                <viewController id="coO-da-rp5" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="FOy-yt-qdJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="Wke-LE-SWA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="IAg-WX-o0M">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="本日は よろしくおねがいします" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wu-Ng-9UO">
+                                <rect key="frame" x="16" y="450" width="736" height="123"/>
+                                <fontDescription key="fontDescription" name="sweet-heavy-calligraphy" family="sweet heavy calligraphy" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iGz-3T-kuH">
+                                <rect key="frame" x="16" y="962" width="69" height="42"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
+                                <state key="normal" title="もどる">
+                                    <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="flipHorizontal" id="8wM-hd-o1Z"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jab-fw-Mlo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2026" y="2428"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="9lf-EW-Uqn">
@@ -101,46 +489,40 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="koshiba.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="V7a-Ea-nNP">
-                                <rect key="frame" x="16" y="28" width="363" height="482"/>
+                                <rect key="frame" x="30" y="78" width="363" height="482"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="小芝　涼太" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQQ-wB-fAh">
-                                <rect key="frame" x="435" y="68" width="250" height="50"/>
+                                <rect key="frame" x="449" y="118" width="250" height="50"/>
                                 <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="50"/>
                                 <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="こしば　りょうた" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ObR-E5-mTI">
-                                <rect key="frame" x="438" y="20" width="255" height="40"/>
+                                <rect key="frame" x="452" y="70" width="255" height="40"/>
                                 <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="35"/>
                                 <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="大阪生まれ大阪育ち" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8PP-MG-KbK">
-                                <rect key="frame" x="440" y="143" width="251" height="30"/>
+                                <rect key="frame" x="454" y="193" width="251" height="30"/>
                                 <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
                                 <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="趣味：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJK-oS-Gpo">
-                                <rect key="frame" x="435" y="224" width="120" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="２１歳：単位は落とさなかったものの就活で挫折" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjA-U7-zdY">
+                                <rect key="frame" x="30" y="787" width="572" height="30"/>
                                 <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
                                 <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="２１歳：単位は落とさなかったものの就活で死亡" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AjA-U7-zdY">
-                                <rect key="frame" x="16" y="757" width="572" height="30"/>
-                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
-                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="１８歳：同志社大学へ入学" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etT-e9-JsN">
-                                <rect key="frame" x="16" y="551" width="341" height="30"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="１８歳：同志社大学理工学部電子工学科へ入学" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="etT-e9-JsN">
+                                <rect key="frame" x="30" y="581" width="611" height="30"/>
                                 <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
                                 <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CrP-Wv-iTj">
-                                <rect key="frame" x="16" y="615" width="698" height="30"/>
+                                <rect key="frame" x="30" y="645" width="698" height="30"/>
                                 <string key="text" base64-UTF8="YES">
 77yR77yY5q2z77ya5aG+6Kyb5bir44Gu44OQ44Kk44OI44KS5aeL44KB44KL44CC6YCx77yU44Gn44OQ
 44Kk44OICOOBq+eGseS4reOBmeOCiw
@@ -150,27 +532,71 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="１９歳：バイトの先輩に連れられ週３で徹夜麻雀" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xEb-C2-kk4">
-                                <rect key="frame" x="16" y="688" width="581" height="30"/>
+                                <rect key="frame" x="30" y="718" width="581" height="30"/>
                                 <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
                                 <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="２２歳：大学院受験を決心" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fn2-EB-v3a">
-                                <rect key="frame" x="16" y="835" width="341" height="30"/>
+                                <rect key="frame" x="30" y="865" width="341" height="30"/>
                                 <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
                                 <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbt-h9-PJ9">
-                                <rect key="frame" x="163" y="915" width="442" height="47"/>
+                                <rect key="frame" x="149" y="919" width="470" height="47"/>
                                 <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="35"/>
-                                <state key="normal" title="ここから第二人生がスタートする">
+                                <state key="normal" title="ここから第二の人生がスタートする">
                                     <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="tTa-yr-VU2" kind="presentation" modalTransitionStyle="flipHorizontal" id="m3U-4q-eX9"/>
+                                </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eVA-84-5QW">
+                                <rect key="frame" x="30" y="962" width="96" height="42"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
+                                <state key="normal" title="TOPへ">
+                                    <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" modalTransitionStyle="flipHorizontal" id="r88-WZ-y7G"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="じこしょうかい" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DYG-fN-Lrm">
+                                <rect key="frame" x="277" y="20" width="215" height="40"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="40"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="奈良先端科学技術大学院大学" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KFU-0H-hYr">
+                                <rect key="frame" x="413" y="257" width="336" height="30"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="25"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="情報科学研究科1年" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8HU-B7-YYo">
+                                <rect key="frame" x="406" y="288" width="336" height="30"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="25"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ユビキタスコンピューティングシステム研究室" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AiS-DM-WIw">
+                                <rect key="frame" x="411" y="326" width="336" height="30"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="20"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="趣味：" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fJK-oS-Gpo">
+                                <rect key="frame" x="423" y="401" width="120" height="40"/>
+                                <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="27"/>
+                                <color key="textColor" red="0.98431372549999996" green="0.6588235294" blue="0.28235294119999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqz-Wu-8VY">
-                                <rect key="frame" x="541" y="224" width="178" height="42"/>
+                                <rect key="frame" x="529" y="401" width="178" height="42"/>
                                 <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
                                 <state key="normal" title="体を動かすこと">
                                     <color key="titleColor" red="0.34509803921568627" green="0.74509803921568629" blue="0.53725490196078429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -178,7 +604,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MoS-1w-9BH">
-                                <rect key="frame" x="541" y="272" width="120" height="42"/>
+                                <rect key="frame" x="529" y="449" width="120" height="42"/>
                                 <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
                                 <state key="normal" title="音楽鑑賞">
                                     <color key="titleColor" red="0.34509803921568627" green="0.74509803921568629" blue="0.53725490196078429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -186,7 +612,7 @@
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iey-6H-nR9">
-                                <rect key="frame" x="541" y="322" width="108" height="42"/>
+                                <rect key="frame" x="529" y="499" width="108" height="42"/>
                                 <fontDescription key="fontDescription" name="NicoMoji+" family="NicoMoji+" pointSize="30"/>
                                 <state key="normal" title="食べ歩き">
                                     <color key="titleColor" red="0.34509803919999998" green="0.74509803919999995" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -201,10 +627,19 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="s2I-gW-ZKX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1648" y="400"/>
+            <point key="canvasLocation" x="2089" y="-1280"/>
         </scene>
     </scenes>
     <resources>
+        <image name="AromaShooterWhite.png" width="1372" height="772"/>
+        <image name="imgviewf.jpeg" width="1920" height="1080"/>
         <image name="koshiba.jpg" width="300" height="400"/>
+        <image name="lit1.jpg" width="960" height="640"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="AUs-FA-Q6c"/>
+        <segue reference="m3U-4q-eX9"/>
+        <segue reference="zUl-Wp-yZq"/>
+        <segue reference="Tde-zV-5K8"/>
+    </inferredMetricsTieBreakers>
 </document>
