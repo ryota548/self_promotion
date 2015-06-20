@@ -21,33 +21,26 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-    /*
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if (segue.identifier == "goWebView") {
-            var WebViewController : WebViewController = segue.destinationViewController as! WebViewController
-            WebViewController.webViewURL = self.webViewURL
+            var WebView : WebViewController = segue.destinationViewController as! WebViewController
+            
+            switch sender!.tag{
+            case 1:
+                webViewURL = "https://life-is-tech.com/"
+            case 2:
+                webViewURL = "http://geiot.jp/"
+            case 3:
+                webViewURL = "http://aromajoin.com/"
+            default:
+                webViewURL = "http://yahoo.co.jp"
+            }
+
+            WebView.webViewURL = self.webViewURL
 
         }
     }
-*/
- /*
-    @IBAction func webURL(sender : AnyObject?){
-        
-        switch sender!.tag{
-        case 1:
-            webViewURL = "https://life-is-tech.com/"
-        case 2:
-            webViewURL = "http://geiot.jp/"
-        case 3:
-            webViewURL = "http://aromajoin.com/"
-        default:
-            webViewURL = "http://yahoo.co.jp"
-        }
-        
 
-    }
-*/
-    
 }
 

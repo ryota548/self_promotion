@@ -353,7 +353,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
                     <connections>
-                        <outlet property="webView" destination="pl8-Bg-1Qa" id="0vH-LT-okO"/>
+                        <outlet property="webView" destination="pl8-Bg-1Qa" id="Vi9-Jv-OOC"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Js3-Y4-aYn" userLabel="First Responder" sceneMemberID="firstResponder"/>
